@@ -4,10 +4,8 @@ using UnityEngine;
 
 public class NextStep : MonoBehaviour
 {
-    public int currentStep;
-    public string currentSprite = "Stap";
-    public string currentSpriteAndStep;
-    public GameObject stap;
+    public int currentStep = -1;
+    public List<GameObject> steps;
 
 
     public Vector3 spritePosition = new Vector3();
@@ -24,18 +22,17 @@ public class NextStep : MonoBehaviour
     }
     public void NextSprite()
     {
-        if (currentStep > 0)
+
+        if (currentStep >= 0)
         {
-            stap.SetActive(false);
+            steps[currentStep].SetActive(false);
         }
 
         currentStep++;
 
-        currentSpriteAndStep = currentSprite + currentStep;
+        Debug.Log(currentStep);
 
-        stap = GameObject.Find(currentSpriteAndStep);
-
-        stap.SetActive(true);
+        steps[currentStep].SetActive(true);
 
     }
 }
