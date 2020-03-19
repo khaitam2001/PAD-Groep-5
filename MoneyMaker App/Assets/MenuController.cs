@@ -30,4 +30,12 @@ public class MenuController : MonoBehaviour
     {
         SceneManager.LoadScene("First-Round");
     }
+    public void SwitchToTutorial()
+    {
+        SceneManager.LoadScene("Tutorial");
+    }
+    public void SwitchTo()
+    {
+        SceneManager.LoadScene("First-Round");
+    }
 }
