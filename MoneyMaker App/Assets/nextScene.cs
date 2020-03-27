@@ -29,6 +29,6 @@ public class nextScene : MonoBehaviour
 
     public void GotoEndOfGame()
     {
-
+        SceneManager.LoadScene("end-of-game");
     }
 }
