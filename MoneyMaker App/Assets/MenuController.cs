@@ -7,35 +7,40 @@ using UnityEngine.XR.WSA;
 
 public class MenuController : MonoBehaviour
 {
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     public void SwitchToGameSetup()
     {
         SceneManager.LoadScene("Setup-Game");
-        // buttonText.text = "Hello World";
-        // GameObject.CreatePrimitive(PrimitiveType.Cube);
     }
     public void SwitchToFirstRound()
     {
         SceneManager.LoadScene("First-Round");
     }
+    public void SwitchToSpelersKeuze()
+    {
+        SceneManager.LoadScene("Spelers-Keuze");
+    }
+    public void SwitchToBankRun()
+    {
+        SceneManager.LoadScene("Bankrun");
+    }
+    public void SwitchToPromoFeature()
+    {
+        SceneManager.LoadScene("Test");
+    }
     public void SwitchToTutorial()
     {
         SceneManager.LoadScene("Tutorial");
     }
-    public void SwitchTo()
+    public void SwitchToBieden()
     {
-        SceneManager.LoadScene("First-Round");
+        SceneManager.LoadScene("bieden");
+    }
+    public void SwitchToEndOfGame()
+    {
+        SceneManager.LoadScene("end-of-game");
+    }
+    public void SwitchToMainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 }
