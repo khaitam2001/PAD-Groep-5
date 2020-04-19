@@ -21,7 +21,7 @@ public class MenuController : MonoBehaviour
     }
     public void SwitchToBankRun()
     {
-        SceneManager.LoadScene("Bankrun");
+        SceneManager.LoadScene("BankruN");
     }
     public void SwitchToPromoFeature()
     {
