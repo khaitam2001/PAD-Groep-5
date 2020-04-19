@@ -1070,7 +1070,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Leg de bankrun fishes '
+  m_Text: 'Plaats de bankrun fishes '
 --- !u!222 &197180333
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2035,7 +2035,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 518973948}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.34, y: -0.11, z: 100.72699}
+  m_LocalPosition: {x: 6.34, y: -0.11, z: 0}
   m_LocalScale: {x: -0.80596167, y: -4.5409, z: -0.015057208}
   m_Children: []
   m_Father: {fileID: 594757401}
@@ -2622,7 +2622,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 665274495}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.322, y: 3.992, z: 119.6489}
+  m_LocalPosition: {x: -8.322, y: 3.992, z: 0}
   m_LocalScale: {x: -0.9219471, y: -0.9219471, z: -0.9219471}
   m_Children: []
   m_Father: {fileID: 1005670617}
@@ -3386,7 +3386,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &1005670616
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3737,7 +3737,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1175933709}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.27, y: 3.95, z: 119.6489}
+  m_LocalPosition: {x: 6.27, y: 3.95, z: 0}
   m_LocalScale: {x: -0.9219471, y: -0.9219471, z: -0.9219471}
   m_Children: []
   m_Father: {fileID: 1005670617}
@@ -4302,7 +4302,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1335480906}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.4, y: -0.058, z: 100.72699}
+  m_LocalPosition: {x: -8.4, y: -0.058, z: 0}
   m_LocalScale: {x: -0.80596167, y: -4.5409, z: -0.015057208}
   m_Children: []
   m_Father: {fileID: 594757401}
