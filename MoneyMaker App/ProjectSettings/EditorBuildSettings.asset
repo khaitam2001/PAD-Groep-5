@@ -26,10 +26,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/bieden.unity
     guid: 1dcc3d2dada45494081e0a057d7d52fe
-  - enabled: 1
-    path: Assets/Scenes/Bankrun.unity
-    guid: ba0675d501a3d2441a3629ebb4c23d35
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Promo-Feature.unity
     guid: 746b3ee0ad944744fa5a06def2dc9a1a
+  - enabled: 1
+    path: Assets/Scenes/Bankrun.unity
+    guid: 0587c23ac711ca34ba2e5d8e0a6b84c7
   m_configObjects: {}
