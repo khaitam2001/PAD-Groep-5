@@ -2684,9 +2684,15 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
+<<<<<<< HEAD
   m_IsActive: 1
 --- !u!81 &428136017
 AudioListener:
+=======
+  m_IsActive: 0
+--- !u!114 &1393139132
+MonoBehaviour:
+>>>>>>> e4ea7100c6195727955047aa849a0c892c54791b
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}

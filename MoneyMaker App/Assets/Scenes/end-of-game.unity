@@ -358,7 +358,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: een speler is falliet zodra hij in de gevangenis zit en zijn schulden niet
-    kan betalen.
+    kan betalen
 --- !u!222 &246581033
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -578,7 +578,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: de game kan op de volgende manieren worden beeindigd
+  m_Text: 'de game kan op de volgende manieren worden beeindigd:'
 --- !u!222 &373111209
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2980,7 +2980,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: het maximale aantal bankruns moet aan het begin bepaald worden.
+  m_Text: het maximale aantal bankruns moet aan het begin bepaald worden
 --- !u!222 &1789647124
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3057,7 +3057,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Er zijn 3, 4 of 5 bankruns geweest. '
+  m_Text: Er zijn 3, 4 of 5 bankruns geweest
 --- !u!222 &1828917046
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3333,7 +3333,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Of zodra \xE9\xE9n speler 10 financieringskaarten heeft eindigt de game
-    ook."
+    ook"
 --- !u!222 &1984975401
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3588,7 +3588,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Zodra alle spelers of alle spelers op \xE9\xE9n na falliet zijn."
+  m_Text: "Zodra alle spelers of alle spelers op \xE9\xE9n na falliet zijn"
 --- !u!222 &2079623377
 CanvasRenderer:
   m_ObjectHideFlags: 0
