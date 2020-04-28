@@ -251,7 +251,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &92334851
 Transform:
   m_ObjectHideFlags: 0
@@ -504,7 +504,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.163}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -58, y: -62}
+  m_AnchoredPosition: {x: -194, y: 92}
   m_SizeDelta: {x: 960, y: 889.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &207247247
@@ -1023,11 +1023,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Wanneer je in de gevangenis zit mag je \n1. geen bod openen. niemand kan
-    dus tijdens jouw beurt een financieringskaart krijgen\n2. al jouw geld gaat gelijk
-    af naar je schulden\n3. je mag niet bieden\n4. als er weer een bankrun komt en
-    jij zit in de gevangenis mag je onderhandelen met andere zodat je misschien uit
-    de gevangenis komt. lukt dat niet lig je uit de game"
+  m_Text: "Stap 4: Wanneer je in de gevangenis zit mag je \n1. geen bod openen. niemand
+    kan dus tijdens jouw beurt een financieringskaart krijgen\n2. al jouw geld gaat
+    gelijk af naar je schulden\n3. je mag niet bieden\n4. als er weer een bankrun
+    komt en jij zit in de gevangenis mag je onderhandelen met andere zodat je misschien
+    uit de gevangenis komt. lukt dat niet lig je uit de game"
 --- !u!222 &391577445
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1071,7 +1071,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 399, y: -69.7}
+  m_AnchoredPosition: {x: 712, y: 56}
   m_SizeDelta: {x: 960, y: 889.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &395551309
@@ -1775,7 +1775,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'plaats deze bankrun op de eerste plek van waar de cirkel is en ga zo verder '
+  m_Text: 'Stap 1:plaats deze bankrun op de eerste plek van waar de cirkel is en
+    ga zo verder '
 --- !u!222 &830176293
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1819,7 +1820,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1135, y: 631}
+  m_AnchoredPosition: {x: -1147, y: 682}
   m_SizeDelta: {x: 78.1, y: 87}
   m_Pivot: {x: -6.9239874, y: 5.1239047}
 --- !u!114 &854070105
@@ -3096,8 +3097,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Bij de bankrun. gooi je met deze dobbelsteen. Als de bankrun bij b3 is
-    gooi je er twee van deze dobbelstenen
+  m_Text: 'Stap 2: Bij de bankrun. gooi je met deze dobbelsteen. Als de bankrun bij
+    b3 is gooi je er twee van deze dobbelstenen'
 --- !u!222 &1254911081
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3446,7 +3447,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Als je niet kan aflossen ga de gevangenis in of je wordt gedepromoveerd.
+  m_Text: Stap 3:Als je niet kan aflossen ga de gevangenis in of je wordt gedepromoveerd.
     en bij depromoveren gaan je krediet ook een stap terug
 --- !u!222 &1519933651
 CanvasRenderer:
