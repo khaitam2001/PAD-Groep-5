@@ -4219,8 +4219,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1325, y: 498}
-  m_SizeDelta: {x: 424.2, y: 330.1}
+  m_AnchoredPosition: {x: 147, y: -94}
+  m_SizeDelta: {x: 120.3, y: 330.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &838017359
 MonoBehaviour:
@@ -4242,10 +4242,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 40
+    m_FontSize: 10
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 4
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -5308,7 +5308,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1055540000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8931,8 +8931,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1797.3, y: 501}
-  m_SizeDelta: {x: 444.7, y: 330.1}
+  m_AnchoredPosition: {x: 281.7, y: -99}
+  m_SizeDelta: {x: 128.1, y: 359}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1823526476
 MonoBehaviour:
@@ -8954,10 +8954,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 40
+    m_FontSize: 10
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 4
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -11549,8 +11549,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 829.7, y: 514.2}
-  m_SizeDelta: {x: 383.2, y: 330.1}
+  m_AnchoredPosition: {x: 16, y: -89}
+  m_SizeDelta: {x: 126.8, y: 345.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2064411292
 MonoBehaviour:
@@ -11572,10 +11572,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 40
+    m_FontSize: 10
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 4
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
