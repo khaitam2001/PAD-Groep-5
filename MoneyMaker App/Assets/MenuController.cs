@@ -43,4 +43,9 @@ public class MenuController : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu");
     }
+
+    public void SwitchToBankrun()
+    {
+        SceneManager.LoadScene("Bankrun");
+    }
 }
