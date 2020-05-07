@@ -2924,7 +2924,7 @@ MonoBehaviour:
   - {fileID: 397348835}
   - {fileID: 1553849454}
   - {fileID: 1292650492}
-  - {fileID: 0}
+  - {fileID: 1923828794}
   spritePosition: {x: 0, y: 0, z: 0}
 --- !u!114 &1207589770
 MonoBehaviour:

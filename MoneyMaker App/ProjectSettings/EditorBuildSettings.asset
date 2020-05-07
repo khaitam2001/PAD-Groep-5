@@ -18,10 +18,10 @@ EditorBuildSettings:
     path: Assets/Scenes/end-of-game.unity
     guid: 724c209f6ae9d1847bd2a3b8ef91830c
   - enabled: 1
-    path: Assets/Scenes/First-Round - Copy - 2.unity
+    path: Assets/Scenes/First-Round.unity
     guid: fee20379e50b9464bad31cee8287ae9c
   - enabled: 1
-    path: Assets/Scenes/First-Round.unity
+    path: Assets/Scenes/First-Round-old.unity
     guid: db2af87b6bb4a364795c0fd1897d6b9f
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
