@@ -48,4 +48,9 @@ public class MenuController : MonoBehaviour
     {
         SceneManager.LoadScene("Bankrun");
     }
+
+    public void SwitchToBankrunFeature()
+    {
+        SceneManager.LoadScene("Bankrun-feature");
+    }
 }
