@@ -635,7 +635,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Dit is de gilde van de kaart. Wanneer je twee kaarten hebt van dezelfde
-    gilde produceren deze kaarten een extra agoed
+    gilde produceren deze kaarten een extra goed
 --- !u!222 &52859847
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9256,7 +9256,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1855527995}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 39, y: -612, z: -1}
+  m_LocalPosition: {x: 57, y: -607, z: -1}
   m_LocalScale: {x: 300, y: 290, z: 1}
   m_Children:
   - {fileID: 1877391261}
