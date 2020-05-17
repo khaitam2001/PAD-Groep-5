@@ -2187,9 +2187,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Stap 5: Omdat je drie blokjes uit de rij van 1 hebt gepakt kost de financieringskaart
-    aan het begin ook 3 goud. als er een blokje uit 2 was gepakt kost de financieringskaart
-    4 '
+  m_Text: 'Stap 5: Omdat je drie blokjes uit de rij van 1 hebt gepakt kost de financierings
+    kaart aan het begin ook 3 goud. Als er een blokje uit 2 was gepakt koste de financierings
+    kaart 4 '
 --- !u!222 &1189961557
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3235,7 +3235,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Stap 3: Als je biedt kan je kiezen tussen de kaart die je hebt gepakt
+  m_Text: 'Stap 3: Als je wil bieden kan je kiezen tussen de kaart die je hebt gepakt
     of de kaart/kaarten die er al liggen'
 --- !u!222 &1786056664
 CanvasRenderer:
@@ -3279,8 +3279,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1062, y: -286}
-  m_SizeDelta: {x: 467.7, y: 197.2}
+  m_AnchoredPosition: {x: -1056, y: -280}
+  m_SizeDelta: {x: 470, y: 222}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1813012648
 MonoBehaviour:
@@ -3313,8 +3313,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Stap 2:Als je een kaart hebt gepakt bepaal je of je biedt of niet. als
-    je niet biedt gaat de beurt naar de volgende speler en is er geen bied ronde
+  m_Text: 'Stap 2: Als je een kaart hebt omgedraaid bepaal je of je op 1 van de opengedraaide
+    financierings kaarten biedt. Als je niet biedt gaat de beurt naar de volgende
+    speler.'
 --- !u!222 &1813012649
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3391,8 +3392,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Stap 1:De Speler die aan de beurt is pakt een kaart waar de pijl naar
-    toe wijst \n"
+  m_Text: 'Stap 1: De Speler die aan de beurt is Draait een financierings kaart.
+
+'
 --- !u!222 &1870605205
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3634,8 +3636,9 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'Stap 4: Als je voor een kaart heb gekozen waarop je wilt bieden. kijk
-    je naar de nummer die rechtsboven op de kaart staat. dat bepaalt hoeveel blokjes
-    je weg moet halen aan de rode kant en als het groen is aan de groene kant'
+    je naar het nummer die rechtsboven op de kaart staat. dat bepaalt hoeveel blokjes
+    je weg moet halen. In dit geval is zijn het 3 rode blokjes. Als het groen is
+    moet je 3 groene blokjes weghalen.'
 --- !u!222 &1925153005
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3991,8 +3994,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'Stap 6: Nu je de beginprijs weet van de kaart mag het bieden beginnen.
-    iedereen die niet in de gevangenis zit mag bieden degene die het meeste biedt
-    wint de kaart'
+    Iedereen die niet in de gevangenis zit mag erop bieden. Degene die het meeste
+    biedt krijgt de kaart.'
 --- !u!222 &2082637436
 CanvasRenderer:
   m_ObjectHideFlags: 0
