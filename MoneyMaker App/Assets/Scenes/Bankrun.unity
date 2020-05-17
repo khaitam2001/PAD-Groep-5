@@ -584,8 +584,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Van het geworpen Symbool moet alle krediet dat geplaats is op dat symbool
-    afgelost worden '
+  m_Text: 'Van het geworpen symbool moet je alle krediet aflossen dat op dat symbool
+    geplaatst is. '
 --- !u!222 &252944688
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1016,7 +1016,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Je lost de krediet af met goud '
+  m_Text: 'Je lost het krediet af met goud '
 --- !u!222 &374857178
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1405,11 +1405,19 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Stap 4: Wanneer je in de gevangenis zit mag je \n1. geen bod openen. niemand
-    kan dus tijdens jouw beurt een financieringskaart krijgen\n2. al jouw geld gaat
-    gelijk af naar je schulden\n3. je mag niet bieden\n4. als er weer een bankrun
-    komt en jij zit in de gevangenis mag je onderhandelen met andere zodat je misschien
-    uit de gevangenis komt. lukt dat niet lig je uit de game"
+  m_Text: 'Wanneer je in de gevangenis zit:
+
+    1. Mag je geen bod openen. Niemand
+    kan dus tijdens jouw beurt een financieringskaart krijgen.
+
+    2. Mag je niet
+    bieden op andere financieringskaarten.
+
+    3. Word het goud dat je verdient
+    wordt gelijk gebruikt voor het aflossen van je schulden.
+
+    4. Moet je alles
+    hebben afgelost wanneer de volgende bankrun er is. Als dit niet lukt heb je verloren'
 --- !u!222 &434323079
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1926,8 +1934,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Stap 1:plaats deze bankrun op de eerste plek van waar de cirkel is en
-    ga zo verder '
+  m_Text: 'Stap 1: plaats de bankrun fiche op de eerste plek van cirkel is en ga
+    zo verder '
 --- !u!222 &830176293
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2944,8 +2952,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Stap 3:Als je niet kan aflossen ga de gevangenis in of je wordt gedepromoveerd.
-    en bij depromoveren gaan je krediet ook een stap terug
+  m_Text: 'Stap 3: Als je niet kan aflossen ga de gevangenis in of je wordt gedepromoveerd.
+    Wanneer je depromoveerd gaat je krediet 1 klasse terug.'
 --- !u!222 &1168545542
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3265,8 +3273,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Stap 2: Bij de bankrun. gooi je met deze dobbelsteen. Als de bankrun bij
-    b3 is gooi je er twee van deze dobbelstenen'
+  m_Text: 'Stap 2: Wanneer er een bankrun is gooi je met deze dobbelsteen. Als de
+    bankrun bij b3 is gooi je de extra dobbelsteen.'
 --- !u!222 &1254911081
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4756,7 +4764,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hier zie je dat de spelers gedepromoveerd zijn en dat de blauwe fiche ook
+  m_Text: Hier zie je dat de spelers gedepromoveerd is en dat het oranje fiche ook
     in de gevangenis zit.
 --- !u!222 &1997708581
 CanvasRenderer:
