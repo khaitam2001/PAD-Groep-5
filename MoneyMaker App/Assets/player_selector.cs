@@ -5,26 +5,70 @@ using UnityEngine.UI;
 public class player_selector : MonoBehaviour
 {
     public int Players = 0;
-    public Text mytext = null;
+    public List<GameObject> muntjes;
+    public int showPlayerStep = 0;
 
     public void playersDrie()
     {
-        Debug.Log("Hello");
-        mytext.text = "3 Spelers";
+        Players = 3;
+
+        if (showPlayerStep > 3)
+        {
+            putPlayerOff();
+        }
+        putPlayerOn();
     }
     public void playersVier()
     {
+       Players = 4;
 
-        mytext.text = "4 Spelers";
+
+        if (showPlayerStep > 4)
+        {
+            putPlayerOff();
+        }
+        putPlayerOn();
+
     }
     public void playersVijf()
     {
+        Players = 5;
 
-        mytext.text = "5 Spelers";
+
+        if (showPlayerStep > 5)
+        {
+            putPlayerOff();
+        }
+        putPlayerOn();
+
     }
     public void playersZes()
     {
+        Players = 6;
 
-        mytext.text = "6 Spelers";
+
+
+        putPlayerOn();
+
     }
+
+    public void putPlayerOn()
+    {
+        showPlayerStep = 0;
+        for (int i = 0; i < Players ; i++)
+        {
+            muntjes[showPlayerStep].SetActive(true);
+
+            showPlayerStep++;
+        }
+
+    }
+
+    public void putPlayerOff()
+    {
+        muntjes[4].SetActive(false);
+        muntjes[5].SetActive(false);
+        muntjes[6].SetActive(false);
+    }
+
 }
