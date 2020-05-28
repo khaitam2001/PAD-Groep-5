@@ -6,27 +6,22 @@ public class player_selector : MonoBehaviour
 {
     public int Players = 0;
     public List<GameObject> muntjes;
+    public List<GameObject> bankrunFiches;
+
     public int showPlayerStep = 0;
 
     public void playersDrie()
     {
         Players = 3;
 
-        if (showPlayerStep > 3)
-        {
-            putPlayerOff();
-        }
+        putPlayerOff();
         putPlayerOn();
     }
     public void playersVier()
     {
        Players = 4;
 
-
-        if (showPlayerStep > 4)
-        {
-            putPlayerOff();
-        }
+       putPlayerOff();
         putPlayerOn();
 
     }
@@ -34,19 +29,13 @@ public class player_selector : MonoBehaviour
     {
         Players = 5;
 
-
-        if (showPlayerStep > 5)
-        {
-            putPlayerOff();
-        }
+        putPlayerOff();
         putPlayerOn();
 
     }
     public void playersZes()
     {
         Players = 6;
-
-
 
         putPlayerOn();
 
@@ -66,9 +55,14 @@ public class player_selector : MonoBehaviour
 
     public void putPlayerOff()
     {
-        muntjes[4].SetActive(false);
-        muntjes[5].SetActive(false);
-        muntjes[6].SetActive(false);
+        for (int i = 0; i < muntjes.Count; i++)
+        {
+            muntjes[i].SetActive(false);
+
+        }
     }
+
+
+    //bankrun fiches based on players
 
 }
