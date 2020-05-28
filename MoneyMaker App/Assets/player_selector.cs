@@ -7,15 +7,10 @@ public class player_selector : MonoBehaviour
     public int Players = 0;
     public Text mytext = null;
 
-    void start() { }
-
-    void update() { }
-
     public void playersDrie()
     {
         Debug.Log("Hello");
         mytext.text = "3 Spelers";
-        Players = 3;
     }
     public void playersVier()
     {
