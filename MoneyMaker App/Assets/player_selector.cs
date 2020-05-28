@@ -50,7 +50,7 @@ public class player_selector : MonoBehaviour
 
             showPlayerStep++;
         }
-
+        setBankRun();
     }
 
     public void putPlayerOff()
@@ -64,5 +64,27 @@ public class player_selector : MonoBehaviour
 
 
     //bankrun fiches based on players
-
+   public void setBankRun()
+    {
+        
+        for(int i = 0; i < bankrunFiches.Count; i++)
+        {
+            if (Players == 6) {
+               bankrunFiches[i].transform.localPosition =  new Vector3(-6.76f, 4.12f, -2);
+            }
+            else if (Players == 5)
+            {
+                bankrunFiches[i].transform.localPosition = new Vector3(-6.16f, 3.56f, -2);
+            }
+           else if (Players == 4)
+            {
+                bankrunFiches[i].transform.localPosition = new Vector3(-5.59f, 4.12f, -2);
+            }
+            else if (Players == 3)
+            {
+                bankrunFiches[i].transform.localPosition = new Vector3(-4.94f, 3.56f, -2);
+            }
+           
+        }
+    }
 }

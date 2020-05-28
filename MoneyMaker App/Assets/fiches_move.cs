@@ -7,6 +7,7 @@ public class fiches_move : MonoBehaviour
     Vector3 mousePos;
     private float startPosX;
     private float startPosY;
+ 
     private bool isBeingHeld = false;
 
     // Update is called once per frame
@@ -18,7 +19,7 @@ public class fiches_move : MonoBehaviour
             mousePos = Input.mousePosition;
             mousePos = Camera.main.ScreenToWorldPoint(mousePos);
 
-            this.gameObject.transform.localPosition = new Vector3(mousePos.x - startPosX, mousePos.y - startPosY, -1);
+            this.gameObject.transform.localPosition = new Vector3(mousePos.x - startPosX, mousePos.y - startPosY, -2);
         }
     }
     private void OnMouseDown()
@@ -33,6 +34,7 @@ public class fiches_move : MonoBehaviour
 
             startPosX = mousePos.x - this.transform.localPosition.x;
             startPosY = mousePos.y - this.transform.localPosition.y;
+         
             isBeingHeld = true;
         }
     }
