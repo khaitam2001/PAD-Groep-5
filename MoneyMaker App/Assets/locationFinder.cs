@@ -13,7 +13,7 @@ public class locationFinder : MonoBehaviour
         {
             Vector3 mousePos;
             mousePos = Input.mousePosition;
-            print(mousePos);
+            // print(mousePos);
         }
     }
 }
