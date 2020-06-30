@@ -11,18 +11,5 @@ public class FichesPosSet : MonoBehaviour
     {
         get { return position; }
     }
-    public FichesPosSet()
-    {
-
-    }
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-
-        
-    }
 
 }
