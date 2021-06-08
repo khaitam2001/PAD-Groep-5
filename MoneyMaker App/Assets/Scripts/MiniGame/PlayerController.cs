@@ -28,6 +28,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Movement
         if (Input.GetKeyDown(KeyCode.Space) && grounded)
         {
             rb.AddForce(new Vector2(0, JumpForce), ForceMode2D.Impulse);
@@ -37,6 +38,7 @@ public class PlayerController : MonoBehaviour
 
         var horizontalVelocity = rb.velocity.x;
 
+        //flips image based on velocity
         if (horizontalVelocity > 0.1)
         {
             image.flipX = true;
@@ -49,6 +51,7 @@ public class PlayerController : MonoBehaviour
 
     void LateUpdate()
     {
+        //checks if on the ground
         if (Physics2D.Raycast(transform.position, Vector2.down, GroundCheckDistance, GroundLayer))
         {
             grounded = true;

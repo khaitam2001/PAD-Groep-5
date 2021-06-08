@@ -17,7 +17,7 @@ namespace Assets.Scripts.MiniGame
 
         void OnTriggerEnter2D(Collider2D col)
         {
-
+            //checks collision with the player
             if (col.gameObject.name == "Player")
             {
                 OnPickUp();

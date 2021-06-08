@@ -10,7 +10,7 @@ namespace Assets.Scripts.MiniGame
     {
         protected override void OnPickUp()
         {
-
+            //adds score
             FindObjectOfType<MiniGameHUDController>().AddScore(1);
 
             base.OnPickUp();

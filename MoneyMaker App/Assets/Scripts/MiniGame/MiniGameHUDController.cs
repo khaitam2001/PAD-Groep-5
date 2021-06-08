@@ -28,6 +28,7 @@ public class MiniGameHUDController : MonoBehaviour
         var remainingTime = MaxTime - Mathf.Floor(time);
         TimerText.text = "Time: " + remainingTime;
 
+        //pauses all objects when the time hits 0
         if (remainingTime == 0)
         {
             FindObjectOfType<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
@@ -43,6 +44,7 @@ public class MiniGameHUDController : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
     }
 
+    //adds score
     public void AddScore(int scoreToAdd)
     {
         score += scoreToAdd;
