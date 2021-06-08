@@ -53,4 +53,8 @@ public class MenuController : MonoBehaviour
     {
         SceneManager.LoadScene("Bankrun-feature");
     }
+    public void SwitchToMiniGame()
+    {
+        SceneManager.LoadScene("MiniGame");
+    }
 }

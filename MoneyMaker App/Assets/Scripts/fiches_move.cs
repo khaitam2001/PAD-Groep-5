@@ -52,14 +52,12 @@ public class fiches_move : FichesPosSet
         //First circle
         if (mousePos.x < Position[1].x)
         {
-            Debug.Log("Dit is het begin");
             this.gameObject.transform.localPosition = Position[0];
         }
 
         //Second circle
         else if (mousePos.x > Position[1].x && this.gameObject.transform.localPosition.x < Position[2].x)
         {
-            Debug.Log("Dit is het einde");
             this.gameObject.transform.localPosition = Position[1];
         }
         
