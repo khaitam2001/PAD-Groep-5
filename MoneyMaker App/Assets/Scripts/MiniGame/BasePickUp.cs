@@ -18,7 +18,7 @@ namespace Assets.Scripts.MiniGame
         void OnTriggerEnter2D(Collider2D col)
         {
             //checks collision with the player
-            if (col.gameObject.name == "Player")
+            if (col.gameObject.CompareTag("Player"))
             {
                 OnPickUp();
                 Destroy(gameObject);
