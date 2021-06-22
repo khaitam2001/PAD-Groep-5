@@ -50,7 +50,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    void LateUpdate()
+    void FixedUpdate()
     {
         //checks if on the ground
         if (Physics2D.Raycast(transform.position, Vector2.down, GroundCheckDistance, GroundLayer))
@@ -65,6 +65,7 @@ public class PlayerController : MonoBehaviour
 
     public void JumpUpgrade()
     {
+        //Adds jumpForce
         JumpForce += JumpPowerUpAmount;
     }
 

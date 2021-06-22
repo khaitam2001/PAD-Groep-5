@@ -19,6 +19,7 @@ public class MiniGameHUDController : MonoBehaviour
     void Start()
     {
         ScoreText.text = "Score: 0";
+        Time.timeScale = 1;
     }
 
     void Update()
@@ -32,7 +33,7 @@ public class MiniGameHUDController : MonoBehaviour
         //pauses all objects when the time hits 0
         if (remainingTime == 0 || dead)
         {
-            FindObjectOfType<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
+            Time.timeScale = 0;
             GameOverPanel.SetActive(true);
             GameOverScoreText.text = "Your Score: " + score;
 

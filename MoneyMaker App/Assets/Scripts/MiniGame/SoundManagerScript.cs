@@ -17,6 +17,7 @@ public class SoundManagerScript : MonoBehaviour
 
     public static void PlaySound(string clip)
     {
+        //Checks which SFX needs to be played
         switch (clip)
         {
             case "coinPickedUp":
