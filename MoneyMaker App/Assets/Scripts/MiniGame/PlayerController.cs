@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
+    public GameObject player;
 
     public float JumpForce = 10;
     public float MoveSpeed = 10;
@@ -66,4 +67,5 @@ public class PlayerController : MonoBehaviour
     {
         JumpForce += JumpPowerUpAmount;
     }
+
 }

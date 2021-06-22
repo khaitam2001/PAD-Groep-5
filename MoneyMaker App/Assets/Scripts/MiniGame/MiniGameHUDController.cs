@@ -14,6 +14,7 @@ public class MiniGameHUDController : MonoBehaviour
 
     private int score;
     private float time;
+    private bool dead;
 
     void Start()
     {
@@ -29,13 +30,14 @@ public class MiniGameHUDController : MonoBehaviour
         TimerText.text = "Time: " + remainingTime;
 
         //pauses all objects when the time hits 0
-        if (remainingTime == 0)
+        if (remainingTime == 0 || dead)
         {
             FindObjectOfType<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
             GameOverPanel.SetActive(true);
             GameOverScoreText.text = "Your Score: " + score;
 
             time = MaxTime;
+            dead = false;
         }
     }
 
@@ -50,6 +52,12 @@ public class MiniGameHUDController : MonoBehaviour
         score += scoreToAdd;
 
         ScoreText.text = "Score: " + score;
+    }
+
+    public void Dead()
+    {
+        //Player died
+        dead = true;
     }
 
     public void Restart()

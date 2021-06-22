@@ -15,7 +15,7 @@ namespace Assets.Scripts.MiniGame
         {
             //adds score
             FindObjectOfType<MiniGameHUDController>().AddScore(scoreToAdd);
-
+            SoundManagerScript.PlaySound("coinPickedUp");
             base.OnPickUp();
         }
     }

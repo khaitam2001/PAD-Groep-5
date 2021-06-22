@@ -16,6 +16,10 @@ public class NextStep : MonoBehaviour
             steps[currentStep].SetActive(false);
         }
         currentStep++;
+        if (currentStep >= steps.Count)
+        {
+            currentStep = steps.Count -1;
+        }
         steps[currentStep].SetActive(true);
     }
 
